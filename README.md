@@ -43,3 +43,5 @@ I use [better-npm-run](https://github.com/benoror/better-npm-run) to manage the 
 
 ## ToDo
 
+- Add empty state for movies
+- Improve Search Feedback
