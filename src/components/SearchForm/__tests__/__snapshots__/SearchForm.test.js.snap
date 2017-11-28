@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchForm /> renders 1`] = `
+<div
+  className="SearchForm"
+>
+  <input
+    onChange={[Function]}
+    placeholder="Search for a movie"
+    type="text"
+  />
+</div>
+`;

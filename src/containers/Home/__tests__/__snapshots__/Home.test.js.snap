@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders an error if loading failed 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="SearchForm"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for a movie"
+      type="text"
+    />
+  </div>
+  <p>
+    Oops, Failed to load list!
+  </p>
+</div>
+`;
+
+exports[`<Home /> renders the <MovieCard /> if loading was successful 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="SearchForm"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for a movie"
+      type="text"
+    />
+  </div>
+  <div
+    className="MovieCard"
+    style={
+      Object {
+        "backgroundImage": "url(\\"undefined\\")",
+      }
+    }
+  >
+    <div
+      className="banner_content_wrapper"
+    >
+      <div
+        className="poster"
+      >
+        <img
+          alt={undefined}
+          className="featured_image"
+          src={undefined}
+        />
+        <img
+          alt="Play Trailer"
+          className="play_button"
+          src="https://res.cloudinary.com/dw369yzsh/image/upload/v1470916845/play_button_ngnw1z.png"
+        />
+      </div>
+      <div
+        className="content"
+      >
+        <h2
+          className="title"
+        />
+        <p
+          className="description"
+        />
+        <p
+          className="info"
+        >
+           Views
+          <span>
+            |
+          </span>
+          <span>
+            |
+          </span>
+           / 10 Points
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> renders the loading status if data invalid 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="SearchForm"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for a movie"
+      type="text"
+    />
+  </div>
+  <p />
+</div>
+`;
+
+exports[`<Home /> renders the loading status if requesting data 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="SearchForm"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for a movie"
+      type="text"
+    />
+  </div>
+  <p>
+    Loading...
+  </p>
+</div>
+`;

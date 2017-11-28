@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieCard /> renders 1`] = `
+<div
+  className="MovieCard"
+  style={
+    Object {
+      "backgroundImage": "url(\\"https://image.tmdb.org/t/p/w500//c4zJK1mowcps3wvdrm31knxhur2.jpg\\")",
+    }
+  }
+>
+  <div
+    className="banner_content_wrapper"
+  >
+    <div
+      className="poster"
+    >
+      <img
+        alt="Star Wars"
+        className="featured_image"
+        src="https://image.tmdb.org/t/p/w500//btTdmkgIvOi0FFip1sPuZI2oQG6.jpg"
+      />
+      <img
+        alt="Play Trailer"
+        className="play_button"
+        src="https://res.cloudinary.com/dw369yzsh/image/upload/v1470916845/play_button_ngnw1z.png"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <h2
+        className="title"
+      >
+        Star Wars
+      </h2>
+      <p
+        className="description"
+      >
+        Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.
+      </p>
+      <p
+        className="info"
+      >
+        7141
+         Views
+        <span>
+          |
+        </span>
+        1977-05-25
+        <span>
+          |
+        </span>
+        8.1
+         / 10 Points
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+@import '../../theme/variables';
+
+body {
+  background-color: $color-light-grey;
+  font-family: 'Helvetica-Light', Helvetica, Arial, sans-serif;
+}
+
+.App {
+  color: $color-white;
+}
